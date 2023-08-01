@@ -1,11 +1,7 @@
 # Canadian Airspace Models  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8118133.svg)](https://doi.org/10.5281/zenodo.8118133)
 
-<<<<<<< HEAD
-This repository contains statistical airspace models of aircraft behavior for 12 selected Canadian airports as well as a mixed model of Canada. These machine learned models were trained by the National Research Council Canada (NRC).
-=======
 This repository includes statistical information on 12 Canadian airports, along with the airspace model of Canada. These machine learned models were trained by the National Research Council Canada (NRC) and Carleton University.
->>>>>>> 299fc73b66b6ba3ee24b856b226320ef8ba861a3
 
 As the project continues to develop over the coming years, additional work is planned to be scoped for improvements and applications of the presented statistical models, to enable further efforts to ensure the safe and smooth integration of Remotely Piloted Aircraft Systems (RPAS) into the Canadian airspace.
 
@@ -27,11 +23,7 @@ The `Distributions_Plot/` folder contains matlab scripts to generate the statist
 
 ### Matlab Frequency Tables
 
-<<<<<<< HEAD
-The `Matlab_Frequency_Tables/` folder contains frequency tables for initial and transition distributions of Bayesian networks for the Canada-wide statistical airspace model, which can be used for further encounter generation between an RPAS and traditional aviation using the [`em-model-manned-bayes`](https://github.com/Airspace-Encounter-Models/em-model-manned-bayes) repository from the Airspace Encounter Models organization that is primarily administrated by MIT LL. Note MIT LL has not yet independently validated the use of these models with `em-model-manned-bayes`. Some modification to `em-model-manned-bayes` maybe required to use these models.  
-=======
 The `Matlab_Frequency_Tables/` folder contains frequency tables for initial and transition distributions of Bayesian networks for the Canada-wide statistical airspace model by the aircraft type (light, medium, heavy, and helicopter). The developed frequency tables can be used for further encounter generation between an RPAS and traditional aviation using the [`em-model-manned-bayes`](https://github.com/Airspace-Encounter-Models/em-model-manned-bayes) repository from the Airspace Encounter Models organization that is primarily administrated by MIT LL. Note MIT LL has not yet independently validated the use of these models with `em-model-manned-bayes`. Some modification to `em-model-manned-bayes` may be required to use these models.  
->>>>>>> 299fc73b66b6ba3ee24b856b226320ef8ba861a3
 
 ## Support
 
